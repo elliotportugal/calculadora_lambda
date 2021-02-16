@@ -20,25 +20,25 @@ while rep == "s":
         a = int(input("Selecione o primeiro número: "))
         b = int(input("Selecione o segundo número: "))
         resultado = soma(a,b)
-        print(resultado)
+        print("O resultado da soma entre {} e {} é: {}".format(a,b, resultado))
     
     elif opcao == 2:
         a = int(input("Selecione o primeiro número: "))
         b = int(input("Selecione o segundo número: "))
         resultado = subtracao(a,b)
-        print(resultado)
+        print("O resultado da subtração entre {} e {} é: {}".format(a,b, resultado))
 
     elif opcao == 3:
         a = int(input("Selecione o primeiro número: "))
         b = int(input("Selecione o segundo número: "))
         resultado = multiplicacao(a,b)
-        print(resultado)
+        print("O resultado da multiplicação entre {} e {} é: {}".format(a,b, resultado))
 
     elif opcao == 4:
         a = int(input("Selecione o primeiro número: "))
         b = int(input("Selecione o segundo número: "))
         resultado = divisao(a,b)
-        print(resultado)
+        print("O resultado da divisão entre {} e {} é: {}".format(a,b, resultado))
 
     elif opcao == 5:
         print("Você está saindo")
